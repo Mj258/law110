@@ -1,0 +1,432 @@
+@import "css/font-awesome.min.css";
+@import "css/font-awesome-ie7.min.css";
+/* ------------------------------ *\
+   General
+\* ------------------------------ */
+
+* {
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #f9f9f9 !important;
+  line-height: 1.5 !important;
+}
+
+a {
+  color: #05a9e3;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* ------------------------------ *\
+   Utilities
+\* ------------------------------ */
+
+.no-margin {
+  margin: 0;
+}
+
+.block-elt {
+  display: block;
+}
+
+.disappear {
+  display: none;
+}
+
+.push-away {
+  margin: 0 5px;
+}
+
+.center-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+/* ------------------------------ *\
+   Mouse Cursor
+\* ------------------------------ */
+
+.mouse-move {
+  cursor: move;
+}
+
+/* ------------------------------ *\
+   Buttons
+\* ------------------------------ */
+
+.btn--plain {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  width: auto;
+}
+
+/* ------------------------------ *\
+   Colors
+\* ------------------------------ */
+
+.grey {
+  color: #666;
+}
+
+.grey--light {
+  color: #999;
+}
+
+.grey--lighter {
+  color: #ddd;
+}
+
+.orange {
+  color: #fd9933;
+}
+
+.red {
+  color: #d9534f;
+}
+
+.green {
+  color: #83bf1c;
+}
+
+.blue {
+  color: #007bff;
+}
+
+.yellow{
+  color:#fec600;
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+.bg-green {
+  background-color: #7fbf40;
+  color: #f6fbf2;
+}
+
+.bg-green:hover {
+  background-color: #6ea637;
+}
+
+.bg-green-td {
+  background-color: #6ea637;
+}
+
+.bg-blue {
+  background-color: #05a9e3;
+  color: #f9fdff;
+}
+
+.bg-blue:hover {
+  background-color: #0490c2;
+}
+
+.bg-blue-td {
+  background-color: #0490c2;
+}
+
+.bg-red {
+  background-color: #d9534f;
+  color: #fdf7f7;
+}
+
+.bg-pink {
+  background-color: #FF82AB;
+}
+
+.bg-yellow {
+  background-color: #fec600;
+}
+
+.bg-darkyellow {
+  background-color: #FF9966;
+}
+
+.bg-red:hover {
+  background-color: #d33833;
+}
+
+.bg-red--lighter {
+  background-color: #d94f56;
+  color: #fdf7f7;
+}
+
+.bg-error {
+  background-color: #ffebe8;
+  border: 1px solid #ffa193;
+}
+
+.bg-success {
+  background-color: #D1FFD1;
+  border: 1px solid #5CE65C;
+}
+
+.bg-grey {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  box-shadow: none;
+}
+
+.bg-grey-noborder {
+  background-color: #eee;
+}
+
+.bg-green-light {
+  background-color: #c7e3af;
+  border: 1px solid #ddd;
+}
+
+.bg-green-light {
+  background-color: #c7e3af;
+  border: 1px solid #ddd;
+}
+
+
+
+/*---------------------------------------------*\
+
+web width
+
+/*----------------------------------------------*\
+
+.grid {
+  letter-spacing: -0.31em; /* This is to collapse the white space between inline block elements */
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px; /* Adjust according to your needs */
+}
+
+.column {
+  display: inline-block;
+  letter-spacing: normal;
+  padding: 0 10px; /* Gutter size */
+  vertical-align: top;
+  word-spacing: normal;
+}
+
+  .column > .grid {
+    width: 100%;
+  }
+
+  .column .grid .column:first-child {
+    padding-left: 0;
+  }
+
+  .column .grid .column:last-child {
+    padding-right: 0;
+  }
+
+.whole {
+  width: 100%;
+}
+
+/**
+ * Halves
+ **/
+
+.one-half {
+  width: 50%;
+}
+
+/**
+ * Thirds
+ **/
+
+.one-third {
+  width: 33.333333%;
+}
+.two-third {
+  width: 66.666666%;
+}
+
+/**
+ * Forths
+ **/
+
+.one-forth {
+  width: 25%;
+}
+.two-forth {
+  width: 50%;
+}
+.three-forth {
+  width: 75%;
+}
+
+/**
+ * Fifths
+ **/
+
+.one-fifth {
+  width: 20%;
+}
+.two-fifth {
+  width: 40%;
+}
+.three-fifth {
+  width: 60%;
+}
+.four-fifth {
+  width: 80%;
+}
+
+/**
+ * Tenths
+ **/
+
+.one-tenth {
+  width: 10%;
+}
+.two-tenth {
+  width: 20%;
+}
+.three-tenth {
+  width: 30%;
+}
+.four-tenth {
+  width: 40%;
+}
+.five-tenth {
+  width: 50%;
+}
+.six-tenth {
+  width: 60%;
+}
+.seven-tenth {
+  width: 70%;
+}
+.eight-tenth {
+  width: 80%;
+}
+.nine-tenth {
+  width: 90%;
+}
+
+/**
+ * Twelfths
+ **/
+
+.one-twelfth {
+  width: 8.333333%;
+}
+.two-twelfth {
+  width: 16.666666%;
+}
+.three-twelfth {
+  width: 25%;
+}
+.four-twelfth {
+  width: 33.333333%;
+}
+.five-twelfth {
+  width: 41.666666%;
+}
+.six-twelfth {
+  width: 50%;
+}
+.seven-twelfth {
+  width: 58.333333%;
+}
+.eight-twelfth {
+  width: 66.666666%;
+}
+.nine-twelfth {
+  width: 75%;
+}
+.ten-twelfth {
+  width: 83.333333%;
+}
+.eleven-twelfth {
+  width: 91.666666%;
+}
+
+
+/*-----------------------------------------------*\
+
+font size
+
+\*-----------------------------------------------*/
+/**
+ * Based on a Modular Scale using 14px and 44px as the key values
+ * http://modularscale.com/scale/?px1=14&px2=44&ra1=1.618&ra2=0
+ **/
+
+.ms1 {
+  font-size: 44px;
+}
+
+.ms2 {
+  font-size: 37px;
+}
+
+.ms3 {
+  font-size: 27px;
+}
+
+.ms4 {
+  font-size: 23px;
+}
+
+.ms5 {
+  font-size: 17px;
+}
+
+.ms6 {
+  font-size: 14px;
+}
+
+.ms7 {
+  font-size: 12px;
+}
+
+.ms8 {
+  font-size: 10px;
+}
+
+.ms9 {
+  font-size: 8px;
+}
+
+/*-----------------------------------------------*\
+
+table
+
+\*-----------------------------------------------*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ .mtn-table{
+
+ }
+
+ .mtn-table tr,td{
+
+ }
+
+
+
+/****\
+padding and margin
+\****/
+
